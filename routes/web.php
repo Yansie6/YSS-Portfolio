@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/about-me', function () {
+    return view('about-me');
+});
+Route::get('/growth-portfolio', function () {
+    return view('growth-portfolio');
+});
+Route::get('/xh-portfolio', function () {
+    return view('xh-portfolio');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});

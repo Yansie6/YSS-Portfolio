@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title', 'Hi, I\'m Yan!')
+@section('title')
+    Growth Portfolio
+@endsection
 
 @section('content')
     <p>Welcome! </p>
